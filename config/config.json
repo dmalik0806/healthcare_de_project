@@ -4,5 +4,5 @@
   "processed_path": "data/processed",
   "db_server": "localhost",
   "db_name": "HealthcareClaims",
-  "table_name": "ProcessedFileLog"
+  "table_name": "processedfilelog"
 }

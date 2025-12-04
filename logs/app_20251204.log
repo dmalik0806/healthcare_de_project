@@ -1,0 +1,4 @@
+2025-12-04 10:19:18,201 - INFO - Running Day 2 test ingestion.
+2025-12-04 10:19:18,201 - INFO - Starting ingestion process
+2025-12-04 10:19:18,220 - INFO - Read 4 records from data/raw\dummy_members.csv
+2025-12-04 10:19:18,220 - INFO - Ingestion completed successfully.
