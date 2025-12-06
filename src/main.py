@@ -1,5 +1,8 @@
 from ingestion.ingest_dummy import ingest_dummy_file
+from cleaning.member_clean import clean_member_data, save_clean_data  #added for day 3
 from utils.logger import get_logger
+from utils.config_reader import load_config  #added for day 3
+import os   #added for day 3
 
 logger = get_logger(__name__)
 
@@ -7,12 +10,27 @@ logger = get_logger(__name__)
 #logger.info("Week 1 Day 1 setup complete.")
 
 if __name__ == "__main__":
-    logger.info("Running Day 2 test ingestion.")
+    #logger.info("Running Day 2 test ingestion.")
+    logger.info('Running day 3: Ingestion --> Cleaning')
 
-    df = ingest_dummy_file()
+    config = load_config()
+    cleaned_path = config['cleaned_path']
 
-    if df is not None:
-        logger.info("Ingestion completed successfully.")
-        print(df.head())
-    else:
-        logger.error("Ingestion failed.")
+    df_raw = ingest_dummy_file()
+
+    if df_raw is None:
+        logger.error('Ingestion failed. Exiting')
+        exit()
+    #if df_raw is not None:                                     #Added for Day 2
+    #    logger.info("Ingestion completed successfully.")
+    #    print(df_raw.head())
+    #else:
+    #    logger.error("Ingestion failed.")
+
+    #Day3: added block for cleaning raw data
+    df_cleaned = clean_member_data(df_raw)
+    output_file = os.path.join(cleaned_path, 'cleaned_members.csv')
+    save_clean_data(df_cleaned, output_file)
+
+    logger.info('Day 3 pipeline completed')
+    print(df_cleaned.head())

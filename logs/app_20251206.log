@@ -1,0 +1,20 @@
+2025-12-06 18:13:38,772 - INFO - Running day 3: Ingestion --> Cleaning
+2025-12-06 18:13:38,812 - INFO - Starting ingestion process
+2025-12-06 18:21:11,461 - INFO - Running day 3: Ingestion --> Cleaning
+2025-12-06 18:21:11,461 - INFO - Starting ingestion process
+2025-12-06 18:21:11,508 - INFO - Read 7 records from data/raw\dummy_members.csv
+2025-12-06 18:21:11,509 - INFO - Starting cleaning process for Member
+2025-12-06 18:21:11,522 - INFO - dropped 1 duplicate rows
+2025-12-06 18:21:11,525 - INFO - Removed rows with missing/null mandetory fields
+2025-12-06 18:21:11,533 - INFO - Converted dob to datetime
+2025-12-06 18:21:11,533 - INFO - Cleaning completed successfully
+2025-12-06 18:21:30,887 - INFO - Running day 3: Ingestion --> Cleaning
+2025-12-06 18:21:30,888 - INFO - Starting ingestion process
+2025-12-06 18:21:30,892 - INFO - Read 7 records from data/raw\dummy_members.csv
+2025-12-06 18:21:30,892 - INFO - Starting cleaning process for Member
+2025-12-06 18:21:30,894 - INFO - dropped 1 duplicate rows
+2025-12-06 18:21:30,895 - INFO - Removed rows with missing/null mandetory fields
+2025-12-06 18:21:30,898 - INFO - Converted dob to datetime
+2025-12-06 18:21:30,898 - INFO - Cleaning completed successfully
+2025-12-06 18:21:30,903 - INFO - Cleaned data saved at data/cleaned\cleaned_members.csv
+2025-12-06 18:21:30,903 - INFO - Day 3 pipeline completed
