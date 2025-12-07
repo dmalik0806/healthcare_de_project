@@ -1,0 +1,6 @@
+member_id,first_name,last_name,dob,gender,city,age,full_name,ingestion_date,age_group
+101,John,Doe,1986-02-15,Unknown,Mumbai,39,John Doe,2025-12-07,Adult
+102,Asha,Patel,1990-08-22,Unknown,Delhi,35,Asha Patel,2025-12-07,Adult
+103,Ramesh,Kumar,1978-12-01,Unknown,Bangalore,47,Ramesh Kumar,2025-12-07,Adult
+104,Jaya,Yadav,1972-09-01,Unknown,Pune,53,Jaya Yadav,2025-12-07,Adult
+105,Dev,Burman,1969-09-10,Unknown,Gurgaon,56,Dev Burman,2025-12-07,Adult

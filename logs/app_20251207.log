@@ -1,0 +1,31 @@
+2025-12-07 17:07:08,554 - INFO - Running day 5: Ingestion --> Cleaning --> Transformation
+2025-12-07 17:07:08,569 - INFO - Starting ingestion process
+2025-12-07 17:07:08,588 - INFO - Read 7 records from data/raw\dummy_members.csv
+2025-12-07 17:07:08,588 - INFO - Starting cleaning process for Member
+2025-12-07 17:07:08,592 - INFO - dropped 1 duplicate rows
+2025-12-07 17:07:08,594 - INFO - Removed rows with missing/null mandetory fields
+2025-12-07 17:07:08,598 - INFO - Converted dob to datetime
+2025-12-07 17:07:08,598 - INFO - Cleaning completed successfully
+2025-12-07 17:07:08,601 - INFO - Cleaned data saved at data/cleaned\cleaned_members.csv
+2025-12-07 17:09:00,689 - INFO - Running day 5: Ingestion --> Cleaning --> Transformation
+2025-12-07 17:09:00,692 - INFO - Starting ingestion process
+2025-12-07 17:09:00,695 - INFO - Read 7 records from data/raw\dummy_members.csv
+2025-12-07 17:09:00,695 - INFO - Starting cleaning process for Member
+2025-12-07 17:09:00,696 - INFO - dropped 1 duplicate rows
+2025-12-07 17:09:00,696 - INFO - Removed rows with missing/null mandetory fields
+2025-12-07 17:09:00,699 - INFO - Converted dob to datetime
+2025-12-07 17:09:00,699 - INFO - Cleaning completed successfully
+2025-12-07 17:09:00,701 - INFO - Cleaned data saved at data/cleaned\cleaned_members.csv
+2025-12-07 17:09:00,701 - INFO - Starting transformation process
+2025-12-07 17:11:45,417 - INFO - Running day 5: Ingestion --> Cleaning --> Transformation
+2025-12-07 17:11:45,417 - INFO - Starting ingestion process
+2025-12-07 17:11:45,420 - INFO - Read 7 records from data/raw\dummy_members.csv
+2025-12-07 17:11:45,420 - INFO - Starting cleaning process for Member
+2025-12-07 17:11:45,421 - INFO - dropped 1 duplicate rows
+2025-12-07 17:11:45,421 - INFO - Removed rows with missing/null mandetory fields
+2025-12-07 17:11:45,424 - INFO - Converted dob to datetime
+2025-12-07 17:11:45,424 - INFO - Cleaning completed successfully
+2025-12-07 17:11:45,426 - INFO - Cleaned data saved at data/cleaned\cleaned_members.csv
+2025-12-07 17:11:45,426 - INFO - Starting transformation process
+2025-12-07 17:11:45,436 - INFO - transformation process completed
+2025-12-07 17:11:45,438 - INFO - Day 5 pipeline completed
